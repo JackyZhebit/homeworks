@@ -14,8 +14,4 @@ def task_3(variable)
   return '0' unless to
 
   (to - from).to_str
-
-
- return “0” unless to
-
 end
