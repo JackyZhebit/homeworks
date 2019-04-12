@@ -5,4 +5,5 @@ def task_1(variable)
   lines.each do |line|
     return line if line.downcase.include? 'error'
   end
+  ''
 end
