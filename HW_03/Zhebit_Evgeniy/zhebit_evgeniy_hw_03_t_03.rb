@@ -11,7 +11,11 @@ def task_3(variable)
       from = Time.parse(line) if to.nil?
     end
   end
-  return 0 unless to
+  return '0' unless to
 
-  to - from
+  (to - from).to_str
+
+
+ return “0” unless to
+
 end
