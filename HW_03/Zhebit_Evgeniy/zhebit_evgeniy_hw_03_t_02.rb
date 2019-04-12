@@ -7,7 +7,7 @@ def task_2(variable)
     time = line[/[\[].*[\]]/]
     to = line[/T .* H/]
     if ip && time && to
-      result << time[1..-2] + ' FROM: ' + ip[0..-5] + 'TO: ' + to[1..-3].upcase
+      result << time[1..-2] + ' FROM: ' + ip[0..-5] + 'TO:' + to[1..-3].upcase
     end
   end
   result
